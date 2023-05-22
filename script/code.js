@@ -58,7 +58,7 @@ document.querySelector('#Equal').addEventListener('click',()=>{
        }
         
     } 
-    let calculation = eval(numb1+operators+numb2)                        //two lines to help automatically clear after calculation
+    let calculation = eval(numb1+operators+numb2).toFixed(2)                       //two lines to help automatically clear after calculation
     result.value = calculation;
     resultsArray.push(calculation);
 
