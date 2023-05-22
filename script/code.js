@@ -20,6 +20,7 @@ document.querySelector('#backspace').addEventListener('click',()=>{
 //CE
 function clear(){
     result.value = '';
+    cnt=0;
 }
 document.querySelector('#clearAll').addEventListener('click',()=>{
     clear();
