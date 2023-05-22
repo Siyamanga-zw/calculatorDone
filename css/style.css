@@ -26,7 +26,7 @@ background-color: black;
 color:white;
 text-align: right;
 border-radius: 10px;
-
+font-size: 30px;
 }
 button{
     background-color: black;
@@ -38,6 +38,10 @@ button{
     margin-bottom: 9px;
     padding: -7px -7px 13px rgba(255,255, 255,0.1), 4px 4px 13px rgba(0,0,0,0.2);
     justify-content: space-between;
+}
+button:hover{
+    background-color: white;
+    color:black;
 }
 button.Equal{
     width:106px;
